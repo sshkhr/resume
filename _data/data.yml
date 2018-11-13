@@ -8,8 +8,8 @@ sidebar:
 
     # Profile information
     name: Shashank Shekhar
-    tagline: Full Stack Developer
-    avatar: me.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Machine Learning Enthusiast
+    avatar: me.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: contactshashankshekhar@gmail.com
@@ -19,7 +19,7 @@ sidebar:
     github: sshkhr
     gitlab:
     bitbucket:
-    twitter: '@sshkhr'
+    twitter: '@sshkhr16'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
@@ -33,14 +33,14 @@ sidebar:
       - idiom: Spanish
         level: Beginner
         
-    interests:
-      - item: Climbing
+    Areas of interest:
+      - item: Machine Learning
         link:
 
-      - item: Snowboarding
+      - item: Reinforcement Learning
         link:
 
-      - item: Cooking
+      - item: Computer Vision
         link:
 
 career-profile:
@@ -60,14 +60,12 @@ education:
       university: Indian Institute Of Technology (ISM) Dhanbad
       time: 2013 - 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Coursework included : Mathematics-I (Calculus & Algbera), Computer Programming, Mathematics-II (Matrix Theory, Fourier Series & Ordinary Differential Equations),
+                              Data Structures, Methods Of Applied Mathematics-I (Complex Analysis & Partial Differential Eqns), Numerical And Statistical Methods, 
+                              Computer Networks, Database Management Systems ,Digital Image Processing, Machine Learning
 
-          - Bullet point
-          - Bullet point 
+        - Cumulative GPA : 8.17/10
+        - Major GPA : 8.09/10
 
 experiences:
     - role: Lead Developer
@@ -144,22 +142,19 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Please find below links to my publications, pre-prints and technical reports
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Operator-In-The-Loop Deep Sequential Multi-camera Feature Fusion for Person Re-identification
+        link: "https://arxiv.org/abs/1807.07295"
+        authors: Navaneet K L, Ravi Kiran Sarvadevabhatla, Shashank Shekhar, R. Venkatesh Babu, Anirban Chakraborty
+        journal: Pattern Recognition Letters (under submission) 
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Road Damage Detection And Classification In Smartphone Captured Images Using Mask R-CNN "
+        link: "https://arxiv.org/abs/1811.04535"
+        authors: Janpreet Singh and Shashank Shekhar (equal contribution)
+        conference: IEEE International Conference On Big Data Cup 2018 (accepted)
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
