@@ -1,0 +1,31 @@
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    Publications
+  </h2>
+
+  {% if publications.intro %}
+  <div class="intro">
+    {{ publications.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  
+  <div class="item">
+    <div class="publication-title"><a href="https://arxiv.org/abs/1807.07295">Operator-In-The-Loop Deep Sequential Multi-camera Feature Fusion for Person Re-identification</div>
+    <div class="publication-authors">Navaneet K L, Ravi Kiran Sarvadevabhatla, <b>Shashank Shekhar</b>, R. Venkatesh Babu, Anirban Chakraborty</div>
+    <div class="publication-conference">Pattern Recognition Letters (under submission)</div>
+  </div><!--//item-->
+  
+  <div class="item">
+    <div class="publication-title"><a href="https://arxiv.org/abs/1811.04535">Road Damage Detection And Classification In Smartphone Captured Images Using Mask R-CNN</div>
+    <div class="publication-authors">Janpreet Singh and <b>Shashank Shekhar</b> (equal contribution)</div>
+    <div class="publication-conference">IEEE International Conference On Big Data Cup 2018 (accepted)</div>
+  </div><!--//item-->
+  
+
+</section><!--//section-->
