@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    #about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -44,15 +44,9 @@ sidebar:
         link:
 
 career-profile:
-    title: Career Profile
+    title: About
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      TO FILL
 
 education: 
 
@@ -60,9 +54,9 @@ education:
       university: Indian Institute Of Technology (ISM) Dhanbad
       time: 2013 - 2017
       details: |
-        Coursework included : Mathematics-I (Calculus & Algbera), Computer Programming, Mathematics-II (Matrix Theory, Fourier Series & Ordinary Differential Equations),
-                              Data Structures, Methods Of Applied Mathematics-I (Complex Analysis & Partial Differential Eqns), Numerical And Statistical Methods, 
-                              Computer Networks, Database Management Systems ,Digital Image Processing, Machine Learning
+        Coursework included Mathematics-I (Calculus & Algbera), Mathematics-II (Matrix Theory, Fourier Series & Ordinary Differential Equations),
+        Computer Programming, Data Structures, Methods Of Applied Mathematics-I (Complex Analysis & Partial Differential Eqns), 
+        Numerical And Statistical Methods, Computer Networks, Database Management Systems ,Digital Image Processing, Machine Learning
 
         - Cumulative GPA : 8.17/10
         - Major GPA : 8.09/10
