@@ -139,13 +139,11 @@ publications:
       Please find below links to my publications, pre-prints and technical reports
 
     papers:
-      - title: Operator-In-The-Loop Deep Sequential Multi-camera Feature Fusion for Person Re-identification
-        link: "https://arxiv.org/abs/1807.07295"
+      - title: [Operator-In-The-Loop Deep Sequential Multi-camera Feature Fusion for Person Re-identification](https://arxiv.org/abs/1807.07295)
         authors: Navaneet K L, Ravi Kiran Sarvadevabhatla, Shashank Shekhar, R. Venkatesh Babu, Anirban Chakraborty
-        journal: Pattern Recognition Letters (under submission) 
+        conference: Pattern Recognition Letters (under submission) 
 
-      - title: "Road Damage Detection And Classification In Smartphone Captured Images Using Mask R-CNN "
-        link: "https://arxiv.org/abs/1811.04535"
+      - title: [Road Damage Detection And Classification In Smartphone Captured Images Using Mask R-CNN](https://arxiv.org/abs/1811.04535)
         authors: Janpreet Singh and Shashank Shekhar (equal contribution)
         conference: IEEE International Conference On Big Data Cup 2018 (accepted)
 
@@ -155,22 +153,22 @@ skills:
 
     toolset:
       - name: Python & Django
-        level: 98%
+        #level: 98%
 
       - name: Javascript & jQuery
-        level: 98%
+        #level: 98%
 
       - name: Angular
-        level: 98%
+        #level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
+        #level: 95%
 
       - name: Ruby on Rails
-        level: 85%
+        #level: 85%
 
       - name: Sketch & Photoshop
-        level: 60%
+        #level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
