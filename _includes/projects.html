@@ -1,34 +1,32 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
 <section class="section projects-section">
-
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ projects.title }}
-  </h2>
-
-  {% if projects.intro %}
-  <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
-
-  {% for project in projects.assignments %}
-    <div class="item">
-
-      <span class="project-title">
-        <a href="{{ project.link }}">{{ project.title }}</a>
-      </span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
-    </div><!--//item-->
-  {% endfor %}
-
-</section><!--//section-->
-{% endif %}
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <div class="intro">
+                  <!--   <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p> -->
+                </div><!--//intro-->
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/shagunsodhani/papers-I-read">A-Paper-A-Week</a></a></span> - <span class="project-tagline">Committed myself to reading and summarising a research paper every week.</span>
+                    
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/shagunsodhani/CNN-Sentence-Classifier">CNN-Sentence-Classifier</a></span> - 
+                    <span class="project-tagline">Keras based implementation of <a href = "https://arxiv.org/abs/1408.5882">Convolutional Neural Networks for Sentence Classification by Yoon Kim (2014)</a>. </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/shagunsodhani/tf-char-rnn">Character-Level Language Model</a></span> - <span class="project-tagline">TensorFlow based implementation of Char-RNN using Multi-layer Recurrent Neural Networks.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="">Spatial Co-location Pattern Mining using Graph Database</a></span> - <span class="project-tagline">Developed and implemented scalable algorithms for mining spatial co-location patterns using distributed graph database as part of the final year thesis.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/shagunsodhani/locis">MapReduce System to mine Spatial Co-location Patterns</a></span> - <span class="project-tagline">Efficient implementation of the system described in the paper <a href = "https://github.com/shagunsodhani/locis/blob/master/docs/paper/paper.pdf">A Parallel Spatial Co-location Mining Algorithm Based on MapReduce by Yoo et al (2014)</a></span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://github.com/shagunsodhani/iota/">Stack Exchange Data as Spark Dataframes</a></span> - <span class="project-tagline">Implemented a system that loads Stack Exchange Data as Spark Dataframes and performs analysis over the data.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://shagunsodhani.in/StackExchange-tagger/">Tagging StackExchange Questions using SVC</a></span> - <span class="project-tagline">Implemented a tagger for questions posted on Stack Exchange using Support Vector Classification as course project for Artificial Neural Networks, IIT Roorkee.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://shagunsodhani.in/powerlaw/">Analysing Power-law Distributions</a></span> - <span class="project-tagline">Python implementation of the system described in the paper <a href = "http://arxiv.org/pdf/0706.1062.pdf">Power-law distributions in Empirical data by Clauset et al (2009).</a></span>
+                </div><!--//item-->
+            </section><!--//section-->

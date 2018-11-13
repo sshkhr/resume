@@ -1,33 +1,67 @@
-{% assign sidebar = site.data.data.sidebar %}
-<div class="sidebar-wrapper">
+<!-- Use icons from fontawesome when you are adding new item in the contact list  -->             
 
-  <div class="profile-container">
+                 
+     <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
+                <h1 class="name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
+                <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                   
+                   {% if site.email %}
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
+                    {% else %}
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">alan.doe@website.com</a></li>
+                    {% endif %}
+                    
+<!--                     {% if site.phone %}
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+                    {% else %}
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:012 345 6789">012 345 6789</a></li>
+                    {% endif %} -->
+                    
+                    {% if site.website %}
+                    <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
+                    {% else %}
+                    <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
+                    {% endif %}
 
-    {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
-    {% endif %}
+                    {% if site.github %}
+                    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">{{site.github}}</a></li>
+                    {% else %}
+                    <li class="github"><i class="fa fa-github"></i><a href="http://github.com/shagunsodhani" target="_blank">shagunsodhani</a></li>
+                    {% endif %}
 
-    {% if sidebar.name %}
-    <h1 class="name">{{ sidebar.name }}</h1>
-    {% endif %}
+                    {% if site.twitter %}
+                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">shagunsodhani</a></li>
+                    {% else %}
+                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@shagunsodhani" target="_blank">shagunsodhani</a></li>
+                    {% endif %}
 
-    {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
-    {% endif %}
+                    {% if site.stackoverflow %}
+                    <li class="stackoverflow"><i class="fa fa-stack-overflow"></i><a href="https://stackoverflow.com/users/{{site.stackoverflow}}" target="_blank">shagunsodhani</a></li>
+                    {% else %}
+                     <li class="stackoverflow"><i class="fa fa-stack-overflow"></i><a href="https://stackoverflow.com/users/1353861" target="_blank">shagunsodhani</a></li>
+                    {% endif %}
 
-  </div><!--//profile-container-->
+                    {% if site.linkedin %}
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">shagunsodhani</a></li>
+                    {% else %}
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/shagunsodhani" target="_blank">shagunsodhani</a></li>
+                    {% endif %}
+                    
+                    
+                    
+                    
+                </ul>
+            </div><!--//contact-container-->
+           {% include education.html %}
+           {% include awards.html %}
+           {% include talks.html %}
+           {% include tech-skills.html %}
 
-  {% include contact.html %}
-
-  {% if sidebar.education %}
-    {% include education.html %}
-  {% endif %}
-
-  {% include language.html %}
-  {% include interests.html %}
-
-  {% if sidebar.about %}
-    {% include about.html %}
-  {% endif %}
-
-</div><!--//sidebar-wrapper-->
+            
+        </div><!--//sidebar-wrapper-->
