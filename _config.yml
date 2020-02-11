@@ -14,7 +14,7 @@ baseurl: '/online-cv' #change it according to your repository name
 
 #Profile information
 name: Shashank Shekhar
-tagline: Research Assitant
+tagline: Masters student in AI
 pic: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
