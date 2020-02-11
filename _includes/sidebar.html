@@ -29,6 +29,12 @@
                     <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
                     {% endif %}
 
+                    {% if site.scholar %}
+                    <li class="scholar"><i class="fa fa-check"></i><i class="ai ai-google-scholar-square fa-3x"></i></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
+                    {% else %}
+                    <li class="scholar"><i class="fa fa-check"></i><i class="ai ai-google-scholar-square fa-3x"></i><a href="https://scholar.google.ca/citations?user=UpV5wyYAAAAJ&hl=en" target="_blank">Shashank Shekhar</a></li>
+                    {% endif %}
+
                     {% if site.github %}
                     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">{{site.github}}</a></li>
                     {% else %}
