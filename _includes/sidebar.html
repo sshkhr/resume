@@ -17,22 +17,10 @@
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">alan.doe@website.com</a></li>
                     {% endif %}
                     
-<!--                     {% if site.phone %}
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
-                    {% else %}
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:012 345 6789">012 345 6789</a></li>
-                    {% endif %} -->
-                    
                     {% if site.website %}
                     <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
                     {% else %}
                     <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
-                    {% endif %}
-
-                    {% if site.scholar %}
-                    <li class="scholar"><i class="fa fa-check"></i><i class="ai ai-google-scholar-square fa-3x"></i></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
-                    {% else %}
-                    <li class="scholar"><i class="fa fa-check"></i><i class="ai ai-google-scholar-square fa-3x"></i><a href="https://scholar.google.ca/citations?user=UpV5wyYAAAAJ&hl=en" target="_blank">Shashank Shekhar</a></li>
                     {% endif %}
 
                     {% if site.github %}
@@ -53,6 +41,13 @@
                     {% else %}
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/shagunsodhani" target="_blank">sshkhr</a></li>
                     {% endif %}
+
+                    {% if site.scholar %}
+                    <li class="scholar"><i class="fa fa-check"></i><i class="ai ai-google-scholar-square fa-3x"></i></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
+                    {% else %}
+                    <li class="scholar"><i class="fa fa-check"></i><i class="ai ai-google-scholar-square fa-3x"></i><a href="https://scholar.google.ca/citations?user=UpV5wyYAAAAJ&hl=en" target="_blank">Shashank Shekhar</a></li>
+                    {% endif %}
+
                                
                 </ul>
             </div><!--//contact-container-->
