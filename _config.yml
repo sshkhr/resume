@@ -1,7 +1,7 @@
 
 title: Shashank's Resume
 url: 'https://sshkr.github.io'
-baseurl: '/online-cv' #change it according to your repository name
+baseurl: '/resume' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
